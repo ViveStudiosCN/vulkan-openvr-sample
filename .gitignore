@@ -26,10 +26,10 @@ libs/Win32/Debug/*
 *.sdf
 *.filters
 *.build
-build32
-dbuild
+*.build32
+*.dbuild
 *.external
-build-android/external
+*.build-android/external
 *.config
 *.creator
 *.creator.user
