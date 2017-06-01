@@ -28,7 +28,7 @@ libs/Win32/Debug/*
 *.build
 build32
 dbuild
-external
+*.external
 build-android/external
 *.config
 *.creator
