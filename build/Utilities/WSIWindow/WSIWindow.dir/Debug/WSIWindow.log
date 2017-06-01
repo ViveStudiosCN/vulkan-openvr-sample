@@ -1,0 +1,8 @@
+﻿  Building Custom Rule E:/VulkanSamples/Utilities/WSIWindow/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\Utilities\WSIWindow\CMakeFiles\generate.stamp is up-to-date.
+  CInstance.cpp
+  Validation.cpp
+  WSIWindow.cpp
+  WindowImpl.cpp
+  正在生成代码...
+  WSIWindow.vcxproj -> E:\VulkanSamples\build\Utilities\WSIWindow\Debug\WSIWindow.lib

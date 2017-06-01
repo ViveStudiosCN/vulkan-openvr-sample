@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/VulkanSamples/API-Samples/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\API-Samples\CMakeFiles\generate.stamp is up-to-date.
+  secondary_command_buffer.cpp
+  secondary_command_buffer.vcxproj -> E:\VulkanSamples\build\API-Samples\Debug\secondary_command_buffer.exe

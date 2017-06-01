@@ -1,0 +1,16 @@
+﻿  Building Custom Rule E:/VulkanSamples/Sample-Programs/Hologram/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\Sample-Programs\Hologram\CMakeFiles\generate.stamp is up-to-date.
+  Generating HelpersDispatchTable.cpp
+  Generating HelpersDispatchTable.h
+  Generating Hologram.frag.h
+  Generating Hologram.vert.h
+  Generating Hologram.push_constant.vert.h
+  HelpersDispatchTable.cpp
+  Hologram.cpp
+  Main.cpp
+  Meshes.cpp
+  Simulation.cpp
+  Shell.cpp
+  ShellWin32.cpp
+  正在生成代码...
+  Hologram.vcxproj -> E:\VulkanSamples\build\Sample-Programs\Hologram\Debug\Hologram.exe

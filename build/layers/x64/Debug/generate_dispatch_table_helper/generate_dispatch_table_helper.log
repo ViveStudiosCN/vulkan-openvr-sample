@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/VulkanSamples/layers/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\layers\CMakeFiles\generate.stamp is up-to-date.
+  Generating vk_dispatch_table_helper.h
+  * Building vk_dispatch_table_helper.h
+  * Generated vk_dispatch_table_helper.h

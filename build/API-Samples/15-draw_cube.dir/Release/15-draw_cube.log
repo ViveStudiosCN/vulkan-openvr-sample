@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/VulkanSamples/API-Samples/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\API-Samples\CMakeFiles\generate.stamp is up-to-date.
+  15-draw_cube.cpp
+LINK : fatal error LNK1181: 无法打开输入文件“..\..\external\glslang\build\glslang\Release\glslang.lib”

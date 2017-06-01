@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/VulkanSamples/API-Samples/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\API-Samples\CMakeFiles\generate.stamp is up-to-date.
+  09-init_descriptor_set.cpp
+  09-init_descriptor_set.vcxproj -> E:\VulkanSamples\build\API-Samples\Debug\09-init_descriptor_set.exe

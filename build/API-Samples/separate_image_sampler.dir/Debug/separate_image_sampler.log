@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/VulkanSamples/API-Samples/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\API-Samples\CMakeFiles\generate.stamp is up-to-date.
+  separate_image_sampler.cpp
+  separate_image_sampler.vcxproj -> E:\VulkanSamples\build\API-Samples\Debug\separate_image_sampler.exe

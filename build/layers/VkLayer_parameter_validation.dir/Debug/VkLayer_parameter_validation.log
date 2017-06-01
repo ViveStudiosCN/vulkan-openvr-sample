@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/VulkanSamples/layers/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\layers\CMakeFiles\generate.stamp is up-to-date.
+  Generating parameter_validation.h
+  * Building parameter_validation.h
+  * Generated parameter_validation.h
+  parameter_validation.cpp
+  vk_layer_table.cpp
+  正在生成代码...
+    正在创建库 E:/VulkanSamples/build/layers/Debug/VkLayer_parameter_validation.lib 和对象 E:/VulkanSamples/build/layers/Debug/VkLayer_parameter_validation.exp
+  VkLayer_parameter_validation.vcxproj -> E:\VulkanSamples\build\layers\Debug\VkLayer_parameter_validation.dll

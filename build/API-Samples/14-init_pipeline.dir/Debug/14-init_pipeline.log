@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/VulkanSamples/API-Samples/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\API-Samples\CMakeFiles\generate.stamp is up-to-date.
+  14-init_pipeline.cpp
+  14-init_pipeline.vcxproj -> E:\VulkanSamples\build\API-Samples\Debug\14-init_pipeline.exe

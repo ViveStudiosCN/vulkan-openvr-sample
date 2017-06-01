@@ -1,0 +1,7 @@
+﻿  Building Custom Rule E:/VulkanSamples/layers/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\layers\CMakeFiles\generate.stamp is up-to-date.
+  vk_layer_config.cpp
+  vk_layer_extension_utils.cpp
+  vk_layer_utils.cpp
+  正在生成代码...
+  VkLayer_utils.vcxproj -> E:\VulkanSamples\build\layers\Debug\VkLayer_utils.lib

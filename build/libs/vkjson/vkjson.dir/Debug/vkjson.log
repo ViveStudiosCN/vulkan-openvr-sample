@@ -1,0 +1,7 @@
+﻿  Building Custom Rule E:/VulkanSamples/libs/vkjson/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\libs\vkjson\CMakeFiles\generate.stamp is up-to-date.
+  vkjson.cc
+  vkjson_instance.cc
+  正在生成代码...
+  cJSON.c
+  vkjson.vcxproj -> E:\VulkanSamples\build\libs\vkjson\Debug\vkjson.lib

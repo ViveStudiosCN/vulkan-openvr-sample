@@ -1,0 +1,17 @@
+﻿  Building Custom Rule E:/VulkanSamples/demos/smoke/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\demos\smoke\CMakeFiles\generate.stamp is up-to-date.
+  Generating ../../../demos/smoke/HelpersDispatchTable.cpp
+  Generating ../../../demos/smoke/HelpersDispatchTable.h
+  Generating Smoke.frag.h
+  Generating Smoke.vert.h
+  Generating Smoke.push_constant.vert.h
+  Game.cpp
+  HelpersDispatchTable.cpp
+  Smoke.cpp
+  Main.cpp
+  Meshes.cpp
+  Simulation.cpp
+  Shell.cpp
+  ShellWin32.cpp
+  正在生成代码...
+  smoketest.vcxproj -> E:\VulkanSamples\build\demos\Debug\smoketest.exe

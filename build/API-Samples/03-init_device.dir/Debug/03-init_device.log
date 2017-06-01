@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/VulkanSamples/API-Samples/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\API-Samples\CMakeFiles\generate.stamp is up-to-date.
+  03-init_device.cpp
+  03-init_device.vcxproj -> E:\VulkanSamples\build\API-Samples\Debug\03-init_device.exe

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/VulkanSamples/layers/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\layers\CMakeFiles\generate.stamp is up-to-date.
+  Generating vk_enum_string_helper.h
+  Generating enum string helper to E:\VulkanSamples\build\layers\vk_enum_string_helper.h
+  DONE!

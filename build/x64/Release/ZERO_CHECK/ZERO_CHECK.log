@@ -1,0 +1,17 @@
+﻿  Checking Build System
+  CMake does not need to re-run because E:/VulkanSamples/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/loader/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/tests/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/tests/gtest-1.7.0/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/tests/layers/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/layers/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/demos/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/demos/smoke/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/libs/vkjson/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/Utilities/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/Utilities/WSIWindow/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/Utilities/WSIWindow_Sample1/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/API-Samples/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/API-Samples/utils/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/Sample-Programs/Hologram/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because E:/VulkanSamples/build/Layer-Samples/Overlay/CMakeFiles/generate.stamp is up-to-date.

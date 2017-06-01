@@ -1,0 +1,8 @@
+﻿  Building Custom Rule E:/VulkanSamples/layers/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\layers\CMakeFiles\generate.stamp is up-to-date.
+  Generating vk_struct_string_helper.h, vk_struct_string_helper_cpp.h, vk_struct_size_helper.h, vk_struct_size_helper.c, vk_safe_struct.h, vk_safe_struct.cpp
+  Generating struct string helper
+  Generating struct string helper cpp
+  Generating struct size helper
+  Generating struct size helper c
+  DONE!

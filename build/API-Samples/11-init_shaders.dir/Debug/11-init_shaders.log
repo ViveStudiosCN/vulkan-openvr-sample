@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/VulkanSamples/API-Samples/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\API-Samples\CMakeFiles\generate.stamp is up-to-date.
+  11-init_shaders.cpp
+  11-init_shaders.vcxproj -> E:\VulkanSamples\build\API-Samples\Debug\11-init_shaders.exe

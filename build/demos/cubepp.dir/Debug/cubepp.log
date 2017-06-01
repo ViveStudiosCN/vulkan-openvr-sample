@@ -1,0 +1,6 @@
+﻿  Building Custom Rule E:/VulkanSamples/demos/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\demos\CMakeFiles\generate.stamp is up-to-date.
+  Generating cube-vert.spv
+  Generating cube-frag.spv
+  cube.cpp
+  cubepp.vcxproj -> E:\VulkanSamples\build\demos\Debug\cubepp.exe

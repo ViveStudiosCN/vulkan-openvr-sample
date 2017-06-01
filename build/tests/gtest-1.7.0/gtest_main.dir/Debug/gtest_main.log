@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/VulkanSamples/tests/gtest-1.7.0/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\tests\gtest-1.7.0\CMakeFiles\generate.stamp is up-to-date.
+  gtest_main.cc
+    正在创建库 E:/VulkanSamples/build/tests/gtest-1.7.0/Debug/gtest_main.lib 和对象 E:/VulkanSamples/build/tests/gtest-1.7.0/Debug/gtest_main.exp
+  gtest_main.vcxproj -> E:\VulkanSamples\build\tests\gtest-1.7.0\Debug\gtest_main.dll

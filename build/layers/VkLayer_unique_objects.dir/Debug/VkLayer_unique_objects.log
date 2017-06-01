@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/VulkanSamples/layers/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\layers\CMakeFiles\generate.stamp is up-to-date.
+  Generating unique_objects_wrappers.h
+  * Building unique_objects_wrappers.h
+  * Generated unique_objects_wrappers.h
+  unique_objects.cpp
+  vk_layer_table.cpp
+  正在生成代码...
+    正在创建库 E:/VulkanSamples/build/layers/Debug/VkLayer_unique_objects.lib 和对象 E:/VulkanSamples/build/layers/Debug/VkLayer_unique_objects.exp
+  VkLayer_unique_objects.vcxproj -> E:\VulkanSamples\build\layers\Debug\VkLayer_unique_objects.dll

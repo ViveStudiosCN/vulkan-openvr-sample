@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/VulkanSamples/loader/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\loader\CMakeFiles\generate.stamp is up-to-date.
+  VKstatic.1.vcxproj -> E:\VulkanSamples\build\loader\Debug\VKstatic.1.lib

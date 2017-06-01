@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/VulkanSamples/layers/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\layers\CMakeFiles\generate.stamp is up-to-date.
+  Generating thread_check.h
+  * Building thread_check.h
+  * Generated thread_check.h
+  threading.cpp
+  vk_layer_table.cpp
+  正在生成代码...
+    正在创建库 E:/VulkanSamples/build/layers/Debug/VkLayer_threading.lib 和对象 E:/VulkanSamples/build/layers/Debug/VkLayer_threading.exp
+  VkLayer_threading.vcxproj -> E:\VulkanSamples\build\layers\Debug\VkLayer_threading.dll

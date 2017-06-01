@@ -1,0 +1,6 @@
+﻿  Building Custom Rule E:/VulkanSamples/API-Samples/utils/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\API-Samples\utils\CMakeFiles\generate.stamp is up-to-date.
+  util.cpp
+  util_init.cpp
+  正在生成代码...
+  vsamputils.vcxproj -> E:\VulkanSamples\build\API-Samples\utils\Release\vsamputils.lib

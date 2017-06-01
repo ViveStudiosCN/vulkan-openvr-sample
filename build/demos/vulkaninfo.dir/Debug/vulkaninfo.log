@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/VulkanSamples/demos/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\demos\CMakeFiles\generate.stamp is up-to-date.
+  vulkaninfo.c
+  vulkaninfo.vcxproj -> E:\VulkanSamples\build\demos\Debug\vulkaninfo.exe

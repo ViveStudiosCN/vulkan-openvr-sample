@@ -1,0 +1,8 @@
+﻿  Building Custom Rule E:/VulkanSamples/loader/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\loader\CMakeFiles\generate.stamp is up-to-date.
+    正在创建库 E:/VulkanSamples/build/loader/Release/vulkan-1.lib 和对象 E:/VulkanSamples/build/loader/Release/vulkan-1.exp
+  vulkan-1.vcxproj -> E:\VulkanSamples\build\loader\Release\vulkan-1.dll
+  E:\VulkanSamples\build\loader\Release\vulkan-1.dll
+  复制了 1 个文件
+  E:\VulkanSamples\build\loader\Release\vulkan-1.dll
+  复制了 1 个文件

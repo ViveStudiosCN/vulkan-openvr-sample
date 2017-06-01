@@ -1,0 +1,9 @@
+﻿  Building Custom Rule E:/VulkanSamples/tests/CMakeLists.txt
+  CMake does not need to re-run because E:\VulkanSamples\build\tests\CMakeFiles\generate.stamp is up-to-date.
+  loader_validation_tests.cpp
+  vkrenderframework.cpp
+  vktestbinding.cpp
+  vktestframework.cpp
+  test_environment.cpp
+  正在生成代码...
+  vk_loader_validation_tests.vcxproj -> E:\VulkanSamples\build\tests\Debug\vk_loader_validation_tests.exe
