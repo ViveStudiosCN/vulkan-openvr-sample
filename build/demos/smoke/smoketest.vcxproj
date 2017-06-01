@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{62A33A3C-75AE-396C-A2A6-69B28F59B721}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>smoketest</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\VulkanSamples\build\demos\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">smoketest.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">smoketest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\VulkanSamples\build\demos\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">smoketest.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">smoketest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\VulkanSamples\build\demos\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">smoketest.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">smoketest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\VulkanSamples\build\demos\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">smoketest.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">smoketest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_DEBUG;VK_NO_PROTOTYPES;GLM_FORCE_RADIANS;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_DEBUG;VK_NO_PROTOTYPES;GLM_FORCE_RADIANS;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/VulkanSamples/build/demos/smoke/Debug/smoketest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/VulkanSamples/build/demos/Debug/smoketest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;VK_NO_PROTOTYPES;GLM_FORCE_RADIANS;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;VK_NO_PROTOTYPES;GLM_FORCE_RADIANS;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/VulkanSamples/build/demos/smoke/Release/smoketest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/VulkanSamples/build/demos/Release/smoketest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;VK_NO_PROTOTYPES;GLM_FORCE_RADIANS;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;VK_NO_PROTOTYPES;GLM_FORCE_RADIANS;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/VulkanSamples/build/demos/smoke/MinSizeRel/smoketest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/VulkanSamples/build/demos/MinSizeRel/smoketest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;VK_NO_PROTOTYPES;GLM_FORCE_RADIANS;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;VK_NO_PROTOTYPES;GLM_FORCE_RADIANS;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\libs;E:\VulkanSamples\build\demos\smoke;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/VulkanSamples/build/demos/smoke/RelWithDebInfo/smoketest.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/VulkanSamples/build/demos/RelWithDebInfo/smoketest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\demos\smoke\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/VulkanSamples/demos/smoke/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/VulkanSamples -BE:/VulkanSamples/build --check-stamp-file E:\VulkanSamples\build\demos\smoke\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/VulkanSamples/demos/smoke/CMakeLists.txt;E:\VulkanSamples\demos\smoke\CMakeLists.txt;E:\VulkanSamples\demos\smoke\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\VulkanSamples\build\demos\smoke\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/VulkanSamples/demos/smoke/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/VulkanSamples -BE:/VulkanSamples/build --check-stamp-file E:\VulkanSamples\build\demos\smoke\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/VulkanSamples/demos/smoke/CMakeLists.txt;E:\VulkanSamples\demos\smoke\CMakeLists.txt;E:\VulkanSamples\demos\smoke\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\VulkanSamples\build\demos\smoke\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/VulkanSamples/demos/smoke/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/VulkanSamples -BE:/VulkanSamples/build --check-stamp-file E:\VulkanSamples\build\demos\smoke\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/VulkanSamples/demos/smoke/CMakeLists.txt;E:\VulkanSamples\demos\smoke\CMakeLists.txt;E:\VulkanSamples\demos\smoke\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\VulkanSamples\build\demos\smoke\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/VulkanSamples/demos/smoke/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/VulkanSamples -BE:/VulkanSamples/build --check-stamp-file E:\VulkanSamples\build\demos\smoke\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/VulkanSamples/demos/smoke/CMakeLists.txt;E:\VulkanSamples\demos\smoke\CMakeLists.txt;E:\VulkanSamples\demos\smoke\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\VulkanSamples\build\demos\smoke\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\850d0bd7b4e1407c55669554f399461c\HelpersDispatchTable.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../../demos/smoke/HelpersDispatchTable.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/generate-dispatch-table.py E:/VulkanSamples/demos/smoke/HelpersDispatchTable.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/VulkanSamples/build/CMakeFiles/850d0bd7b4e1407c55669554f399461c/HelpersDispatchTable.cpp.rule;E:\VulkanSamples\demos\smoke\generate-dispatch-table.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\VulkanSamples\demos\smoke\HelpersDispatchTable.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../demos/smoke/HelpersDispatchTable.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/generate-dispatch-table.py E:/VulkanSamples/demos/smoke/HelpersDispatchTable.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/VulkanSamples/build/CMakeFiles/850d0bd7b4e1407c55669554f399461c/HelpersDispatchTable.cpp.rule;E:\VulkanSamples\demos\smoke\generate-dispatch-table.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\VulkanSamples\demos\smoke\HelpersDispatchTable.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../../../demos/smoke/HelpersDispatchTable.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/generate-dispatch-table.py E:/VulkanSamples/demos/smoke/HelpersDispatchTable.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/VulkanSamples/build/CMakeFiles/850d0bd7b4e1407c55669554f399461c/HelpersDispatchTable.cpp.rule;E:\VulkanSamples\demos\smoke\generate-dispatch-table.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\VulkanSamples\demos\smoke\HelpersDispatchTable.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../../demos/smoke/HelpersDispatchTable.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/generate-dispatch-table.py E:/VulkanSamples/demos/smoke/HelpersDispatchTable.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/VulkanSamples/build/CMakeFiles/850d0bd7b4e1407c55669554f399461c/HelpersDispatchTable.cpp.rule;E:\VulkanSamples\demos\smoke\generate-dispatch-table.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\VulkanSamples\demos\smoke\HelpersDispatchTable.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\850d0bd7b4e1407c55669554f399461c\HelpersDispatchTable.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../../demos/smoke/HelpersDispatchTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/generate-dispatch-table.py E:/VulkanSamples/demos/smoke/HelpersDispatchTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/VulkanSamples/build/CMakeFiles/850d0bd7b4e1407c55669554f399461c/HelpersDispatchTable.h.rule;E:\VulkanSamples\demos\smoke\generate-dispatch-table.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\VulkanSamples\demos\smoke\HelpersDispatchTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../demos/smoke/HelpersDispatchTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/generate-dispatch-table.py E:/VulkanSamples/demos/smoke/HelpersDispatchTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/VulkanSamples/build/CMakeFiles/850d0bd7b4e1407c55669554f399461c/HelpersDispatchTable.h.rule;E:\VulkanSamples\demos\smoke\generate-dispatch-table.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\VulkanSamples\demos\smoke\HelpersDispatchTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../../../demos/smoke/HelpersDispatchTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/generate-dispatch-table.py E:/VulkanSamples/demos/smoke/HelpersDispatchTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/VulkanSamples/build/CMakeFiles/850d0bd7b4e1407c55669554f399461c/HelpersDispatchTable.h.rule;E:\VulkanSamples\demos\smoke\generate-dispatch-table.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\VulkanSamples\demos\smoke\HelpersDispatchTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../../demos/smoke/HelpersDispatchTable.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/generate-dispatch-table.py E:/VulkanSamples/demos/smoke/HelpersDispatchTable.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/VulkanSamples/build/CMakeFiles/850d0bd7b4e1407c55669554f399461c/HelpersDispatchTable.h.rule;E:\VulkanSamples\demos\smoke\generate-dispatch-table.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\VulkanSamples\demos\smoke\HelpersDispatchTable.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\71665bf922c2a1ed9e61f41ac26b34ec\Smoke.frag.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating Smoke.frag.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.frag Smoke.frag.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.frag.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.frag;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.frag.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating Smoke.frag.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.frag Smoke.frag.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.frag.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.frag;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.frag.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating Smoke.frag.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.frag Smoke.frag.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.frag.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.frag;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.frag.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating Smoke.frag.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.frag Smoke.frag.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.frag.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.frag;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.frag.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\71665bf922c2a1ed9e61f41ac26b34ec\Smoke.vert.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating Smoke.vert.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.vert Smoke.vert.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.vert.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.vert;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.vert.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating Smoke.vert.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.vert Smoke.vert.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.vert.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.vert;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.vert.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating Smoke.vert.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.vert Smoke.vert.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.vert.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.vert;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.vert.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating Smoke.vert.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.vert Smoke.vert.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.vert.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.vert;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.vert.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\71665bf922c2a1ed9e61f41ac26b34ec\Smoke.push_constant.vert.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating Smoke.push_constant.vert.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.push_constant.vert Smoke.push_constant.vert.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.push_constant.vert.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.push_constant.vert;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.push_constant.vert.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating Smoke.push_constant.vert.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.push_constant.vert Smoke.push_constant.vert.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.push_constant.vert.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.push_constant.vert;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.push_constant.vert.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating Smoke.push_constant.vert.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.push_constant.vert Smoke.push_constant.vert.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.push_constant.vert.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.push_constant.vert;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.push_constant.vert.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating Smoke.push_constant.vert.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files (x86)\Python35-32\python.exe" E:/VulkanSamples/demos/smoke/glsl-to-spirv E:/VulkanSamples/demos/smoke/Smoke.push_constant.vert Smoke.push_constant.vert.h E:/VulkanSamples/external/glslang/build/install/bin/glslangValidator.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/VulkanSamples/build/CMakeFiles/71665bf922c2a1ed9e61f41ac26b34ec/Smoke.push_constant.vert.h.rule;E:\VulkanSamples\demos\smoke\glsl-to-spirv;E:\VulkanSamples\demos\smoke\Smoke.push_constant.vert;E:\VulkanSamples\external\glslang\build\install\bin\glslangValidator.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\VulkanSamples\build\demos\smoke\Smoke.push_constant.vert.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\VulkanSamples\demos\smoke\Game.h" />
+    <ClInclude Include="E:\VulkanSamples\demos\smoke\Helpers.h" />
+    <ClInclude Include="E:\VulkanSamples\demos\smoke\HelpersDispatchTable.h" />
+    <ClInclude Include="E:\VulkanSamples\demos\smoke\Smoke.h" />
+    <ClInclude Include="E:\VulkanSamples\build\demos\smoke\Smoke.frag.h" />
+    <ClInclude Include="E:\VulkanSamples\build\demos\smoke\Smoke.vert.h" />
+    <ClInclude Include="E:\VulkanSamples\build\demos\smoke\Smoke.push_constant.vert.h" />
+    <ClInclude Include="E:\VulkanSamples\demos\smoke\Meshes.h" />
+    <ClInclude Include="E:\VulkanSamples\demos\smoke\Meshes.teapot.h" />
+    <ClInclude Include="E:\VulkanSamples\demos\smoke\Simulation.h" />
+    <ClInclude Include="E:\VulkanSamples\demos\smoke\Shell.h" />
+    <ClInclude Include="E:\VulkanSamples\demos\smoke\ShellWin32.h" />
+    <ClCompile Include="E:\VulkanSamples\demos\smoke\Game.cpp"  />
+    <ClCompile Include="E:\VulkanSamples\demos\smoke\HelpersDispatchTable.cpp"  />
+    <ClCompile Include="E:\VulkanSamples\demos\smoke\Smoke.cpp"  />
+    <ClCompile Include="E:\VulkanSamples\demos\smoke\Main.cpp"  />
+    <ClCompile Include="E:\VulkanSamples\demos\smoke\Meshes.cpp"  />
+    <ClCompile Include="E:\VulkanSamples\demos\smoke\Simulation.cpp"  />
+    <ClCompile Include="E:\VulkanSamples\demos\smoke\Shell.cpp"  />
+    <ClCompile Include="E:\VulkanSamples\demos\smoke\ShellWin32.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/VulkanSamples/build/ZERO_CHECK.vcxproj">
+      <Project>E92F8737-4BCC-383B-9C0F-B51A165172F6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

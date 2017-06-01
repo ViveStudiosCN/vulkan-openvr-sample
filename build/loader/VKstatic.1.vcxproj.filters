@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\loader\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="E:\VulkanSamples\build\loader\loader-opt.dir\$(Configuration)\dev_ext_trampoline.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\VulkanSamples\build\loader\loader-norm.dir\$(Configuration)\loader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\VulkanSamples\build\loader\loader-norm.dir\$(Configuration)\trampoline.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\VulkanSamples\build\loader\loader-norm.dir\$(Configuration)\wsi.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\VulkanSamples\build\loader\loader-norm.dir\$(Configuration)\extensions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\VulkanSamples\build\loader\loader-norm.dir\$(Configuration)\debug_report.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\VulkanSamples\build\loader\loader-norm.dir\$(Configuration)\cJSON.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\VulkanSamples\build\loader\loader-norm.dir\$(Configuration)\murmurhash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="E:\VulkanSamples\build\loader\loader-norm.dir\$(Configuration)\dirent_on_windows.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{BF6FE9D7-4974-3F46-9EF0-757FBCA8E38E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{155DC7DE-3F1F-34BC-A417-DA891CFBE1A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

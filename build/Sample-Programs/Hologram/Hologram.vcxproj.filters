@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\VulkanSamples\build\Sample-Programs\Hologram\HelpersDispatchTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\VulkanSamples\Sample-Programs\Hologram\Hologram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\VulkanSamples\Sample-Programs\Hologram\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\VulkanSamples\Sample-Programs\Hologram\Meshes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\VulkanSamples\Sample-Programs\Hologram\Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\VulkanSamples\Sample-Programs\Hologram\Shell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\VulkanSamples\Sample-Programs\Hologram\ShellWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\VulkanSamples\Sample-Programs\Hologram\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\Sample-Programs\Hologram\Helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\build\Sample-Programs\Hologram\HelpersDispatchTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\Sample-Programs\Hologram\Hologram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\build\Sample-Programs\Hologram\Hologram.frag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\build\Sample-Programs\Hologram\Hologram.vert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\build\Sample-Programs\Hologram\Hologram.push_constant.vert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\Sample-Programs\Hologram\Meshes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\Sample-Programs\Hologram\Meshes.teapot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\Sample-Programs\Hologram\Simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\Sample-Programs\Hologram\Shell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\VulkanSamples\Sample-Programs\Hologram\ShellWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\Sample-Programs\Hologram\CMakeLists.txt" />
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\707476fb7b2b84cfb92ecb50ac60e2b7\HelpersDispatchTable.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\707476fb7b2b84cfb92ecb50ac60e2b7\HelpersDispatchTable.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\707476fb7b2b84cfb92ecb50ac60e2b7\Hologram.frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\707476fb7b2b84cfb92ecb50ac60e2b7\Hologram.vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\707476fb7b2b84cfb92ecb50ac60e2b7\Hologram.push_constant.vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4777E1CD-4A19-3064-AD97-08B57DC56DDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{EA88EDED-70C5-38BF-832C-F341ED18F5C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9F817C34-A107-3F80-B370-DC57274C3FD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

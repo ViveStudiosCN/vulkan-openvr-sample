@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5795390D-0FD8-3181-8B59-425CA656F231}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>gtest_main</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\VulkanSamples\build\tests\gtest-1.7.0\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gtest_main.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gtest_main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\VulkanSamples\build\tests\gtest-1.7.0\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gtest_main.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gtest_main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\VulkanSamples\build\tests\gtest-1.7.0\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gtest_main.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gtest_main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\VulkanSamples\build\tests\gtest-1.7.0\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gtest_main.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gtest_main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> -J %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4267;4127;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_DEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_UNICODE;UNICODE;WIN32;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;GTEST_CREATE_SHARED_LIBRARY=1;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR="Debug";gtest_main_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_DEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_UNICODE;UNICODE;WIN32;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;GTEST_CREATE_SHARED_LIBRARY=1;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR=\"Debug\";gtest_main_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\gtest.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/VulkanSamples/build/tests/gtest-1.7.0/src;E:/VulkanSamples/build/tests/gtest-1.7.0/src/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/VulkanSamples/build/tests/gtest-1.7.0/Debug/gtest_main.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/VulkanSamples/build/tests/gtest-1.7.0/Debug/gtest_main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> -J %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4267;4127;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_UNICODE;UNICODE;WIN32;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;GTEST_CREATE_SHARED_LIBRARY=1;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR="Release";gtest_main_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_UNICODE;UNICODE;WIN32;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;GTEST_CREATE_SHARED_LIBRARY=1;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR=\"Release\";gtest_main_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\gtest.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/VulkanSamples/build/tests/gtest-1.7.0/src;E:/VulkanSamples/build/tests/gtest-1.7.0/src/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/VulkanSamples/build/tests/gtest-1.7.0/Release/gtest_main.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/VulkanSamples/build/tests/gtest-1.7.0/Release/gtest_main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> -J %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4267;4127;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_UNICODE;UNICODE;WIN32;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;GTEST_CREATE_SHARED_LIBRARY=1;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR="MinSizeRel";gtest_main_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_UNICODE;UNICODE;WIN32;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;GTEST_CREATE_SHARED_LIBRARY=1;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR=\"MinSizeRel\";gtest_main_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\gtest.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/VulkanSamples/build/tests/gtest-1.7.0/src;E:/VulkanSamples/build/tests/gtest-1.7.0/src/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/VulkanSamples/build/tests/gtest-1.7.0/MinSizeRel/gtest_main.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/VulkanSamples/build/tests/gtest-1.7.0/MinSizeRel/gtest_main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> -J %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4267;4127;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_UNICODE;UNICODE;WIN32;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;GTEST_CREATE_SHARED_LIBRARY=1;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR="RelWithDebInfo";gtest_main_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;NDEBUG;WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_UNICODE;UNICODE;WIN32;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;GTEST_CREATE_SHARED_LIBRARY=1;VK_USE_PLATFORM_WIN32_KHR;WIN32_LEAN_AND_MEAN;CMAKE_INTDIR=\"RelWithDebInfo\";gtest_main_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\VulkanSamples\include;E:\VulkanSamples\tests\gtest-1.7.0\include;E:\VulkanSamples\icd\common;E:\VulkanSamples\layers;E:\VulkanSamples\external\glslang;E:\VulkanSamples\libs;E:\VulkanSamples\tests\gtest-1.7.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\gtest.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/VulkanSamples/build/tests/gtest-1.7.0/src;E:/VulkanSamples/build/tests/gtest-1.7.0/src/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/VulkanSamples/build/tests/gtest-1.7.0/RelWithDebInfo/gtest_main.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/VulkanSamples/build/tests/gtest-1.7.0/RelWithDebInfo/gtest_main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\tests\gtest-1.7.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/VulkanSamples/tests/gtest-1.7.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/VulkanSamples -BE:/VulkanSamples/build --check-stamp-file E:\VulkanSamples\build\tests\gtest-1.7.0\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/VulkanSamples/tests/gtest-1.7.0/CMakeLists.txt;E:\VulkanSamples\tests\gtest-1.7.0\CMakeLists.txt;E:\VulkanSamples\tests\gtest-1.7.0\cmake\internal_utils.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.c.in;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\VulkanSamples\tests\gtest-1.7.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\VulkanSamples\build\tests\gtest-1.7.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/VulkanSamples/tests/gtest-1.7.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/VulkanSamples -BE:/VulkanSamples/build --check-stamp-file E:\VulkanSamples\build\tests\gtest-1.7.0\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/VulkanSamples/tests/gtest-1.7.0/CMakeLists.txt;E:\VulkanSamples\tests\gtest-1.7.0\CMakeLists.txt;E:\VulkanSamples\tests\gtest-1.7.0\cmake\internal_utils.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.c.in;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\VulkanSamples\tests\gtest-1.7.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\VulkanSamples\build\tests\gtest-1.7.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/VulkanSamples/tests/gtest-1.7.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/VulkanSamples -BE:/VulkanSamples/build --check-stamp-file E:\VulkanSamples\build\tests\gtest-1.7.0\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/VulkanSamples/tests/gtest-1.7.0/CMakeLists.txt;E:\VulkanSamples\tests\gtest-1.7.0\CMakeLists.txt;E:\VulkanSamples\tests\gtest-1.7.0\cmake\internal_utils.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.c.in;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\VulkanSamples\tests\gtest-1.7.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\VulkanSamples\build\tests\gtest-1.7.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/VulkanSamples/tests/gtest-1.7.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HE:/VulkanSamples -BE:/VulkanSamples/build --check-stamp-file E:\VulkanSamples\build\tests\gtest-1.7.0\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/VulkanSamples/tests/gtest-1.7.0/CMakeLists.txt;E:\VulkanSamples\tests\gtest-1.7.0\CMakeLists.txt;E:\VulkanSamples\tests\gtest-1.7.0\cmake\internal_utils.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.c.in;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\VulkanSamples\tests\gtest-1.7.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\VulkanSamples\build\tests\gtest-1.7.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\VulkanSamples\tests\gtest-1.7.0\src\gtest_main.cc"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/VulkanSamples/build/ZERO_CHECK.vcxproj">
+      <Project>E92F8737-4BCC-383B-9C0F-B51A165172F6</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/VulkanSamples/build/tests/gtest-1.7.0/gtest.vcxproj">
+      <Project>802D3843-B497-315A-BE7B-FA5AA6733ADE</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

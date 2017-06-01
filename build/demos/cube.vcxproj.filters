@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\VulkanSamples\demos\cube.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\demos\CMakeLists.txt" />
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\f36b9e753cd99ab71df47e9118b476f5\cube-vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\f36b9e753cd99ab71df47e9118b476f5\cube-frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\VulkanSamples\build\demos\cube-vert.spv" />
+    <None Include="E:\VulkanSamples\build\demos\cube-frag.spv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4777E1CD-4A19-3064-AD97-08B57DC56DDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9F817C34-A107-3F80-B370-DC57274C3FD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

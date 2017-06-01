@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+E:/VulkanSamples/Sample-Programs/Hologram/CMakeLists.txt
+E:/Program Files/CMake/share/cmake-3.7/Modules/FindPythonInterp.cmake
+E:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+E:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+E:/Program Files/CMake/share/cmake-3.7/Modules/FindThreads.cmake
+E:/Program Files/CMake/share/cmake-3.7/Modules/CheckLibraryExists.cmake
+E:/Program Files/CMake/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+E:/Program Files/CMake/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+E:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+E:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake

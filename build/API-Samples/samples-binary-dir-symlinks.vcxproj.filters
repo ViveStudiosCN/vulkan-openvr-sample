@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\API-Samples\CMakeLists.txt" />
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\2ecb66ff06d0e8d8c0000401969ea214\samples-binary-dir-symlinks.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\VulkanSamples\build\API-Samples\CMakeFiles\samples-binary-dir-symlinks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9F817C34-A107-3F80-B370-DC57274C3FD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

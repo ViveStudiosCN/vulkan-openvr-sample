@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\VulkanSamples\tests\layers\CMakeLists.txt" />
+    <CustomBuild Include="E:\VulkanSamples\build\CMakeFiles\a8f278cc6d0a79c8ec19fea35a6f1f11\VkLayer_wrap_objects-json.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\VulkanSamples\build\tests\layers\CMakeFiles\VkLayer_wrap_objects-json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9F817C34-A107-3F80-B370-DC57274C3FD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
